@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Quotify</string>
+    <string name="quotify">Quotify</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="push_yourself_no_one_else_will_do_it_for_you">Push yourself—no one else will do it for you.</string>
+    <string name="share_quote">Share Quote</string>
+    <string name="favorite_quote">Favorite Quote</string>
+    <string name="go_to_favorites">Go to Favorites</string>
+    <string name="favorites">Favorites</string>
+    <string name="search_quotes">Search quotes...</string>
+    <string name="empty_message">You do not have any favorite quotes yet.</string>
+    <string name="empty_message_2">Start saving the ones that inspire you 💖</string>
+    <string name="your_favorite_quote_goes_here">“Your favorite quote goes here.”</string>
+    <string name="share_quote_2">Share Quote</string>
+    <string name="unfavorite">Unfavorite</string>
+    <string name="view_quotes">View Quotes</string>
+</resources>

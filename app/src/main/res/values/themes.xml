@@ -1,0 +1,13 @@
+<resources>
+    <style name="Base.Theme.Quotify" parent="Theme.Material3.DynamicColors.Dark.NoActionBar">
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Theme.Quotify.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/app_dark_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.Quotify</item>
+    </style>
+
+    <style name="Theme.Quotify" parent="Base.Theme.Quotify" />
+</resources>

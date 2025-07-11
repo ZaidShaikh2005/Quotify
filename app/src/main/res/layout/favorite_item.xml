@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:background="@android:color/transparent"
+    app:ignore="NamespaceTypo"
+    card_view:cardCornerRadius="12dp"
+    card_view:cardElevation="6dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/quoteText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="64dp"
+            android:lineSpacingExtra="5dp"
+            android:text="@string/your_favorite_quote_goes_here"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/unfavoriteButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_below="@id/quoteText"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toStartOf="@id/shareButton"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/unfavorite"
+            android:src="@drawable/ic_favourite_2" />
+
+        <ImageButton
+            android:id="@+id/shareButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_below="@id/quoteText"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="12dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/share_quote_2"
+            android:src="@drawable/ic_share" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
