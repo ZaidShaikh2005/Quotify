@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <string name="app_name">Quotify</string>
     <string name="quotify">Quotify</string>
     <string name="good_morning">Good Morning</string>
@@ -7,7 +7,7 @@
     <string name="favorite_quote">Favorite Quote</string>
     <string name="go_to_favorites">Go to Favorites</string>
     <string name="favorites">Favorites</string>
-    <string name="search_quotes">Search quotes...</string>
+    <string name="search_quotes">Search quotes…</string>
     <string name="empty_message">You do not have any favorite quotes yet.</string>
     <string name="empty_message_2">Start saving the ones that inspire you 💖</string>
     <string name="your_favorite_quote_goes_here">“Your favorite quote goes here.”</string>
