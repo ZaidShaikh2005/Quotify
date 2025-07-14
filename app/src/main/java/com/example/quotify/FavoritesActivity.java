@@ -50,7 +50,6 @@ public class FavoritesActivity extends Activity {
         emptyMessage.setVisibility(favoriteQuotes.isEmpty() ? View.VISIBLE : View.GONE);
 
         Button viewQuotesButton = findViewById(R.id.viewQuotes);
-
         viewQuotesButton.setVisibility(favoriteQuotes.isEmpty() ? View.VISIBLE : View.GONE);
 
         viewQuotesButton.setOnClickListener(v -> {
